@@ -10,4 +10,8 @@
   crear rama
   git branch nombre_de_la_rama
   git checkout -b nombre_de _la _rama(de una ves nos deja en la rama)
-  
+  ver configuracion de git git config --global --list
+  git config --list 
+
+  borrar configuraciion git config --global --unset user.name
+  git config --global --unset user.email
