@@ -32,7 +32,110 @@ app.get("/ruta3/:nombre/:apellido", (req, res) => {
 
 
 
+app.get("/ruta5/:nombre", (req, res) => {
+    const { nombre } = req.params;
 
+    if (nombre.length < 3) {
+        return res.status(400).send("Error: el nombre debe tener al menos 3 letras");
+    }
+
+    res.send(`Hola, ${nombre}, bienvenido`);
+});
+
+app.get("/ruta6/:nombre", (req, res) => {
+    const { nombre } = req.params;
+
+    res.json({
+        id: 1,
+        nombre,
+        stock: 20,
+        precio: 45000,
+        categoria: "Tecnología"
+    });
+});
+
+app.get("/ruta7/:categoria/:id", (req, res) => {
+    const { categoria, id } = req.params;
+
+    res.json({
+        servidor: "Express",
+        categoria,
+        producto: id
+    });
+});
+
+app.get("/ruta8/:id/posts", (req, res) => {
+    const { id } = req.params;
+    const orden = req.query.orden || "asc";
+
+    let publicaciones = [
+        "Publicación 1",
+        "Publicación 2",
+        "Publicación 3"
+    ];
+
+    if (orden === "desc") {
+        publicaciones.reverse();
+    }
+
+    res.json({
+        usuario: id,
+        orden,
+        publicaciones
+    });
+});
+
+app.get("/ruta9/:id/:posts_id/comentarios", (req, res) => {
+    const { id, posts_id } = req.params;
+    const orden = req.query.orden || "asc";
+
+    let comentarios = [
+        "Comentario 1",
+        "Comentario 2",
+        "Comentario 3"
+    ];
+
+    if (orden === "desc") {
+        comentarios.reverse();
+    }
+
+    res.json({
+        usuario: id,
+        post: posts_id,
+        orden,
+        comentarios
+    });
+});
+
+const libros = [
+    {
+        isbn: "111",
+        titulo: "Clean Code",
+        autor: "Robert C. Martin"
+    },
+    {
+        isbn: "222",
+        titulo: "JavaScript",
+        autor: "Douglas Crockford"
+    },
+    {
+        isbn: "333",
+        titulo: "Node.js",
+        autor: "Ryan Dahl"
+    }
+];
+
+app.get("/ruta10/:isbn", (req, res) => {
+    const { isbn } = req.params;
+
+    const libro = libros.find(libro => libro.isbn === isbn);
+
+    if (!libro) {
+        return res.status(404).send("Libro no encontrado");
+    }
+
+    res.json(libro);
+});
 
     app.listen(port, () => {
 console.log( `servidor: http://localhost:${port}`);
