@@ -1,23 +1,23 @@
 [
   {
     "id": 1,
-    "nombre": "Laura",
-    "correo": "lAURA@gmail.com",
-    "imagen": "/imagenes/GATO.jpg",
+    "nombre": "emily",
+    "correo": "camila@gmail.com",
+    "imagen": "/imagenes/mifoto.pg",
     "clave": "12345"
   },
   {
     "id": 1,
-    "nombre": "laura",
-    "correo": "laura@gmail.com",
-    "imagen": "/imagenes/GATO.jpg",
+    "nombre": "emily",
+    "correo": "camila@gmail.com",
+    "imagen": "/imagenes/mifoto.pg",
     "clave": "12345"
   },
   {
     "id": 1,
     "nombre": "Pedro",
     "correo": "pedro@gmail.com",
-    "imagen": "/imagenes/GATO.jpg",
+    "imagen": "/imagenes/mifoto.pg",
     "clave": "123456"
   },
   {
@@ -69,15 +69,72 @@
     "imagen": "sin imagen"
   },
   {
+    "nombre": "emily",
+    "edad": "18",
+    "correo": "camila@gmail.com",
+    "imagen": "sin imagen"
+  },
+  {
+    "nombre": "pedro",
+    "edad": "48",
+    "correo": "pedro@gmail.com",
+    "imagen": "sin imagen"
+  },
+  {
+    "nombre": "pedro",
+    "edad": "48",
+    "correo": "pedro@gmail.com",
     "imagen": "sin imagen"
   },
   {
     "imagen": "sin imagen"
   },
   {
+    "nombre": "Stephany",
+    "edad": 18,
+    "ficha": 3407186,
+    "sede": "Bogotá 1",
+    "correo": "stephany@sena.edu.co",
     "imagen": "sin imagen"
   },
   {
+    "nombre": "Stephany",
+    "edad": 18,
+    "ficha": 3407186,
+    "sede": "Bogotá 1",
+    "correo": "stephany@sena.edu.co",
+    "imagen": "sin imagen"
+  },
+  {
+    "nombre": "Stephany",
+    "edad": 18,
+    "ficha": 3407186,
+    "sede": "Bogotá 1",
+    "correo": "@sena.edu.co",
+    "imagen": "sin imagen"
+  },
+  {
+    "nombre": "Stephany",
+    "edad": 18,
+    "ficha": 3407186,
+    "sede": "Bogotá 1",
+    "correo": "camila@sena.edu.co",
+    "imagen": "sin imagen"
+  },
+  {
+    "nombre": "Stephany",
+    "edad": 18,
+    "ficha": 3407186,
+    "sede": "Bogotá 1",
+    "correo": "stephany@sena.edu.co",
+    "imagen": "sin imagen"
+  },
+  {
+    "nombre": "Stephany",
+    "edad": 18,
+    "ficha": 3407186,
+    "sede": "Bogotá 1",
+    "correo": "stephany@sena.edu.co",
     "imagen": "sin imagen"
   }
 ]
