@@ -1,0 +1,140 @@
+[
+  {
+    "id": 1,
+    "nombre": "Camila",
+    "correo": "camila@gmail.com",
+    "imagen": "/imagenes/mifoto.pg",
+    "clave": "12345"
+  },
+  {
+    "id": 1,
+    "nombre": "Camila",
+    "correo": "camila@gmail.com",
+    "imagen": "/imagenes/mifoto.pg",
+    "clave": "12345"
+  },
+  {
+    "id": 1,
+    "nombre": "Pedro",
+    "correo": "pedro@gmail.com",
+    "imagen": "/imagenes/mifoto.pg",
+    "clave": "123456"
+  },
+  {
+    "id": 1,
+    "nombre": "Pedro",
+    "correo": "pedro@gmail.com",
+    "imagen": "sin imagen",
+    "clave": "123456"
+  },
+  {
+    "id": 1,
+    "nombre": "Pedro",
+    "correo": "pedro@gmail.com",
+    "imagen": "sin imagen",
+    "clave": "123456"
+  },
+  {
+    "id": "5",
+    "nombre": "pablo",
+    "correo": "pablo@gmail.com",
+    "clave": "3000",
+    "imagen": "/misImagenes/1788550835458.png"
+  },
+  {
+    "id": "5",
+    "nombre": "pablo",
+    "correo": "pablo@gmail.com",
+    "clave": "3000",
+    "imagen": "/misImagenes/1788550868487.png"
+  },
+  {
+    "id": "8",
+    "nombre": "paul",
+    "correo": "paul@gmail.com",
+    "clave": "1234567",
+    "imagen": "/misImagenes/1788551021644.png"
+  },
+  {
+    "id": "8",
+    "nombre": "paul",
+    "correo": "paul@gmail.com",
+    "clave": "1234567",
+    "imagen": "/misImagenes/1788551186046.png"
+  },
+  {
+    "imagen": "sin imagen"
+  },
+  {
+    "imagen": "sin imagen"
+  },
+  {
+    "nombre": "camila",
+    "edad": "18",
+    "correo": "camila@gmail.com",
+    "imagen": "sin imagen"
+  },
+  {
+    "nombre": "pedro",
+    "edad": "48",
+    "correo": "pedro@gmail.com",
+    "imagen": "sin imagen"
+  },
+  {
+    "nombre": "pedro",
+    "edad": "48",
+    "correo": "pedro@gmail.com",
+    "imagen": "sin imagen"
+  },
+  {
+    "imagen": "sin imagen"
+  },
+  {
+    "nombre": "Stephany",
+    "edad": 18,
+    "ficha": 3407186,
+    "sede": "Bogotá 1",
+    "correo": "stephany@sena.edu.co",
+    "imagen": "sin imagen"
+  },
+  {
+    "nombre": "Stephany",
+    "edad": 18,
+    "ficha": 3407186,
+    "sede": "Bogotá 1",
+    "correo": "stephany@sena.edu.co",
+    "imagen": "sin imagen"
+  },
+  {
+    "nombre": "Stephany",
+    "edad": 18,
+    "ficha": 3407186,
+    "sede": "Bogotá 1",
+    "correo": "@sena.edu.co",
+    "imagen": "sin imagen"
+  },
+  {
+    "nombre": "Stephany",
+    "edad": 18,
+    "ficha": 3407186,
+    "sede": "Bogotá 1",
+    "correo": "camila@sena.edu.co",
+    "imagen": "sin imagen"
+  },
+  {
+    "nombre": "Stephany",
+    "edad": 18,
+    "ficha": 3407186,
+    "sede": "Bogotá 1",
+    "correo": "stephany@sena.edu.co",
+    "imagen": "sin imagen"
+  },
+  {
+    "nombre": "Stephany",
+    "edad": 18,
+    "ficha": 3407186,
+    "sede": "Bogotá 1",
+    "correo": "stephany@sena.edu.co",
+    "imagen": "sin imagen"
+  }
+]

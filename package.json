@@ -1,5 +1,5 @@
 {
-  "name": "intro-express-js-adrian-palacios",
+  "name": "intro-express-js-stephany-hernandez",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,5 +10,12 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs"
+  "type": "commonjs",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "multer": "^2.3.0"
+  }
 }
