@@ -1,14 +1,14 @@
 [
   {
     "id": 1,
-    "nombre": "Camila",
+    "nombre": "emily",
     "correo": "camila@gmail.com",
     "imagen": "/imagenes/mifoto.pg",
     "clave": "12345"
   },
   {
     "id": 1,
-    "nombre": "Camila",
+    "nombre": "emily",
     "correo": "camila@gmail.com",
     "imagen": "/imagenes/mifoto.pg",
     "clave": "12345"
@@ -69,7 +69,7 @@
     "imagen": "sin imagen"
   },
   {
-    "nombre": "camila",
+    "nombre": "emily",
     "edad": "18",
     "correo": "camila@gmail.com",
     "imagen": "sin imagen"
