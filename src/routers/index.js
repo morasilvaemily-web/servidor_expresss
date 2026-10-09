@@ -1,9 +1,11 @@
-//agregar rutas de  mi aplicacion (usuario, productos, notas, citas )
-const {Router} = require ("express")
-const enrutador = Router ()
-const prueba  = require ("./pruebaRouter")
-enrutador.use ("/rutaPrueba", prueba)
-//ejemplo
-//enrutador.use("/usaurios", usuariosRouter)
+// Agregar rutas de mi aplicación (usuarios, productos, notas, citas)
+const { Router } = require("express");
+const enrutador = Router();
 
-module.exports = enrutador
+const pruebaRouter = require("./pruebaRouter");
+const usuariosRouter = require("./usuariosRouter");
+
+enrutador.use("/rutaPrueba", pruebaRouter);
+enrutador.use("/usuarios", usuariosRouter);
+
+module.exports = enrutador;
