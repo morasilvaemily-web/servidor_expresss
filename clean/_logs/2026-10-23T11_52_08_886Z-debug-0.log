@@ -1,0 +1,68 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.13.0
+2 info using node@v24.16.0
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\sena\Servidor-express-Laura\.npmrc
+5 silly config load:file:C:\Users\sena\.npmrc
+6 silly config load:file:C:\Users\sena\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm star
+8 verbose argv "star"
+9 verbose logfile logs-max:10 dir:C:\Users\sena\Servidor-express-Laura\clean\_logs\2026-10-23T11_52_08_886Z-
+10 verbose logfile C:\Users\sena\Servidor-express-Laura\clean\_logs\2026-10-23T11_52_08_886Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly logfile done cleaning log files
+13 verbose stack Error: 
+13 verbose stack Mark your favorite packages
+13 verbose stack
+13 verbose stack Usage:
+13 verbose stack npm star [<package-spec>...]
+13 verbose stack
+13 verbose stack Options:
+13 verbose stack [--registry <registry>] [--no-unicode] [--otp <otp>]
+13 verbose stack
+13 verbose stack   --registry
+13 verbose stack     The base URL of the npm registry.
+13 verbose stack
+13 verbose stack   --unicode
+13 verbose stack     When set to true, npm uses unicode characters in the tree output.  When
+13 verbose stack
+13 verbose stack   --otp
+13 verbose stack     This is a one-time password from a two-factor authenticator.  It's needed
+13 verbose stack
+13 verbose stack
+13 verbose stack Run "npm help star" for more info
+13 verbose stack     at Star.usageError (C:\Program Files\nodejs\node_modules\npm\lib\base-cmd.js:177:26)
+13 verbose stack     at Star.exec (C:\Program Files\nodejs\node_modules\npm\lib\commands\star.js:21:18)
+13 verbose stack     at C:\Program Files\nodejs\node_modules\npm\lib\npm.js:308:81
+13 verbose stack     at Object.start (C:\Program Files\nodejs\node_modules\npm\node_modules\proc-log\lib\index.js:101:21)
+13 verbose stack     at Npm.execCommandClass (C:\Program Files\nodejs\node_modules\npm\lib\npm.js:307:19)
+13 verbose stack     at async Npm.exec (C:\Program Files\nodejs\node_modules\npm\lib\npm.js:193:9)
+13 verbose stack     at async module.exports (C:\Program Files\nodejs\node_modules\npm\lib\cli\entry.js:67:5)
+14 error code EUSAGE
+15 error
+15 error Mark your favorite packages
+15 error
+15 error Usage:
+15 error npm star [<package-spec>...]
+15 error
+15 error Options:
+15 error [--registry <registry>] [--no-unicode] [--otp <otp>]
+15 error
+15 error   --registry
+15 error     The base URL of the npm registry.
+15 error
+15 error   --unicode
+15 error     When set to true, npm uses unicode characters in the tree output.  When
+15 error
+15 error   --otp
+15 error     This is a one-time password from a two-factor authenticator.  It's needed
+15 error
+15 error
+15 error Run "npm help star" for more info
+16 verbose cwd C:\Users\sena\Servidor-express-Laura
+17 verbose os Windows_NT 10.0.26200
+18 verbose node v24.16.0
+19 verbose npm  v11.13.0
+20 verbose exit 1
+21 verbose code 1
+22 error A complete log of this run can be found in: C:\Users\sena\Servidor-express-Laura\clean\_logs\2026-10-23T11_52_08_886Z-debug-0.log
